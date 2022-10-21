@@ -1,0 +1,91 @@
+
+
+header{
+    padding:1rem 2rem;
+}
+
+footer{
+}
+
+.icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    height:3rem;
+    line-height: 3rem;
+    width:3rem;
+    text-align: center;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    background: #eee;
+    color: black;
+}
+
+header .icons a:hover{
+    color:#fff;
+    background: grey;
+}
+
+button {
+    background-color: #eee;
+    border: None;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.login{
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-size: 1.3em;
+}
+
+.login:hover {
+    color:#fff;
+    background: grey;
+}
+
+.order{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    color:#fff;
+    background: #090929;
+    border-radius: .5rem;
+    cursor: pointer;
+    padding:.8rem 3rem;
+    width: 60%;
+}
+
+.order:hover{
+    background: green;
+    letter-spacing: .1rem;
+}
+
+.open-info{
+    border: 1px solid #999595;
+    width: 350px;
+    border-radius: 30px;
+    background: #eee;
+}
+
+.fa-brands{
+    margin: 0 10px;
+}
+
+.main-container{
+    background-image: url("img/bg.png");
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.nav-link {
+    font-size: 1.3em !important;
+}
+
+.navbar-brand {
+    font-size: 1.5em !important;
+}
